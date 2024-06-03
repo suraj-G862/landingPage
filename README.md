@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Depoloyment Link
 
-## Getting Started
+[`Click Here`](https://landingpage-1-3wus.onrender.com/) to see deployed Project.
 
-First, run the development server:
+## Insruction to run project Locally
+
+### Clone the Repository with link
+```bash
+git clone https://github.com/suraj-G862/landingPage.git .
+```
+
+### Install dependencies
+```bash
+npm install next
+```
+
+### Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design Choices and Libraries/Framework used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Tailwind CSS
+I extensively utilized Tailwind CSS to create an attractive and cohesive design, closely adhering to the Figma design provided.
 
-## Learn More
+### Nextjs
+I chose Next.js for its powerful features, including server-side rendering (SSR) and static site generation (SSG). This React framework excels at providing efficient routing and improved performance through SSR and SSG.
 
-To learn more about Next.js, take a look at the following resources:
+### Dynamic Data
+Dynamic data is fetched from a JSON file (data.json) and displayed on the website, ensuring the content is up-to-date and easy to manage.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Typescript
+TypeScript was employed for type checking, enhancing code quality and maintainability through robust type safety.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Design Adherence
+The design strictly follows the Figma prototype provided by the company, ensuring a high-fidelity implementation of the intended user interface.
 
-## Deploy on Vercel
+### Responsive
+The website is fully responsive, offering an optimal viewing experience across a wide range of devices, from desktops to mobile phones.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Figma Design used for Reference
+
+[https://www.figma.com/design/bqVo2ppBnxb8P7FSHxeE6F/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1](https://www.figma.com/design/bqVo2ppBnxb8P7FSHxeE6F/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1)
+
+
+
+
