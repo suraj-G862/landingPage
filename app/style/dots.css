@@ -1,0 +1,14 @@
+.oval {
+    width: 200px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: red;
+    border-radius: 50%;
+    transform: rotate(145deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(40px);
+  
+    z-index: -10;
+    margin-top: auto;
+}

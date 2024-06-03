@@ -1,0 +1,44 @@
+{
+    "hero": {
+      "headline": "Make The Best Financial Decisions",
+      "subheadline": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor."
+    },
+    "features": [
+      {
+        "title": "Budgeting Intervals",
+        "description": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+        "icon": "https://via.placeholder.com/100"
+      },
+      {
+        "title": "Budgeting Intervals",
+        "description": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+        "icon": "https://via.placeholder.com/100"
+      },
+      {
+        "title": "Budgeting Intervals",
+        "description": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+        "icon": "https://via.placeholder.com/100"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Nick Jonas",
+        "title": "The Best Financial Accounting App Ever",
+        "description": "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam."
+      }
+    ],
+    "faqs":[
+       {
+        "question": "What is the best financial decision?",
+        "answer": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor."
+       },
+       {
+        "question": "What is the best financial decision?",
+        "answer": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor."
+       },
+       {
+        "question": "What is the best financial decision?",
+        "answer": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor."
+       }
+    ]
+  }
