@@ -17,7 +17,7 @@ function Footer() {
              </ul>
            </div>
            <div className='w-[17%]'>
-                <div className='font-bold md:mb-5 mb-1 md:text-2xl text-xs clash-display-medium'>Links</div>
+                <div className='font-bold md:mb-5 mb-1 mt-1 md:text-2xl text-xs clash-display-medium'>Links</div>
                 <ul className='text-[6px] md:text-[16px]'>
                  <li className='md:pb-2 pb-0 clash-display-regular'>Home</li>
                  <li className='md:pb-2 pb-0 clash-display-regular'>About Us</li>
@@ -26,7 +26,7 @@ function Footer() {
                 </ul>
            </div>
            <div className='w-[17%]'>
-                <div className='font-bold md:mb-5 mb-1 md:text-2xl text-xs clash-display-medium'>Legal</div>
+                <div className='font-bold md:mb-5 mb-1 mt-1 md:text-2xl text-xs clash-display-medium'>Legal</div>
                 <ul className='text-[6px] md:text-[16px]'>
                  <li className='md:pb-2 pb-0 clash-display-regular'>Terms of use</li>
                  <li className='md:pb-2 pb-0 clash-display-regular'>Privacy Policy</li>
@@ -34,7 +34,7 @@ function Footer() {
                 </ul>
            </div>
            <div className='w-[20%]'>
-                <div className='font-bold md:mb-5 mb-1 md:text-2xl text-xs clash-display-medium'>Products</div>
+                <div className='font-bold md:mb-5 mb-1 mt-1 md:text-2xl text-xs clash-display-medium'>Products</div>
                 <ul className='text-[6px] md:text-[16px]'>
                  <li className='md:pb-2 pb-0 clash-display-regular'>Take Tour</li>
                  <li className='md:pb-2 pb-0 clash-display-regular'>Live Chat</li>
@@ -42,15 +42,15 @@ function Footer() {
                 </ul>
            </div>
            <div className='w-[25%] ml-[4%]'>
-                <div className='font-bold md:mb-5 mb-1 md:text-2xl text-xs clash-display-medium'>Newsletter</div>
+                <div className='font-bold md:mb-5 mb-1 md:text-2xl mt-1 text-xs clash-display-medium'>Newsletter</div>
                 <ul className='text-[6px] md:text-[16px]'>
                  <li className='md:pb-2 pb-0 clash-display-regular'>Stay Up to Date</li>
                 </ul>
                 <div className='flex flex-col md:flex-row'>
                     <input type="text" placeholder='Your Email' className='mt-1 border-2 rounded-md border-red-500  text-sm md:text-base md:w-32 w-20 h-6 md:h-10'/>
-                    <div className='mt-1 bg-black flex justify-center items-center rounded-md text-sm md:text-base md:w-32 w-20 h-6 md:h-10 text-white'>
-                    <Link href="/downloads clash-display-regular">Subscribe</Link>
-                </div>
+                    <div className='mt-1 bg-black clash-display-regular flex justify-center items-center rounded-md text-sm md:text-base md:w-32 w-20 h-6 md:h-10 text-white transition-all duration-300 sm:hover:text-lg hover:text-sm'>
+                         <Link href="/downloads">Subscribe</Link>
+                    </div>
                 </div>
            </div>
        </div>

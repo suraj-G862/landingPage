@@ -35,7 +35,7 @@ const  FeaturesSection = async () => {
                        />
                        {feature.title}
                      </div>
-                     <p className="md:w-[80%] font-bold clash-display-light opacity-60 text-xs md:text-base">
+                     <p className="md:w-[80%] font-bold clash-display-light opacity-60  md:text-[15px] text-[10px]">
                        {feature.description}
                      </p>
                    </div>

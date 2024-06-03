@@ -16,16 +16,15 @@ function Navbar() {
             </div>
             <div className='ml-4 w-[90%] flex items-center justify-between  relative text-xs sm:text-base'>
                 <div className='flex'>
-                   <Link href="/" className={`sm:mx-3 mx-1  clash-display-medium relative ${currentRoute === '/' ? 'text-red-600 font-bold' : ''}  `}>Home</Link>
+                   <Link href="/" className={`sm:mx-3 mx-1 clash-display-medium  hover:text-red-600 relative ${currentRoute === '/' ? 'text-red-600 font-bold' : ''}  `}>Home</Link>
                    <Link href="/aboutus" className={`sm:mx-3 mx-1 clash-display-medium hover:text-red-600 relative whitespace-nowrap ${currentRoute=== '/aboutus' ? 'text-red-600 font-bold' : ''}`}>About Us</Link>
                    <Link href="/pricing" className={`sm:mx-3 mx-1 clash-display-medium hover:text-red-600 relative ${currentRoute=== '/pricing' ? 'text-red-600 font-bold' : ''}`}>Pricing</Link>
                    <Link href="/features" className={`sm:mx-3 mx-1 clash-display-medium hover:text-red-600 relative ${currentRoute=== '/features' ? 'text-red-600 font-bold' : ''}`}>Features</Link>
                 </div>
-                <div className='bg-black flex justify-center items-center clash-display-medium rounded-md sm:w-32 w-20 h-6 sm:h-10 text-white'>
-                    <Link href="/downloads">Download</Link>
+                <div className='bg-black flex justify-center items-center hover:text-sm sm:hover:text-lg clash-display-medium rounded-md sm:w-32 w-20 h-6 sm:h-10 text-white transition-all duration-300'>
+                   <Link href="/downloads">Download</Link>
                 </div>
             </div>
-            {/* <div className='w-12 h-7 mt-10 absolute right-[4%]'><Image src={"/Star1.png "} alt='logo' width={100} height={100}></Image></div> */}
         </div>
     </div>
   )

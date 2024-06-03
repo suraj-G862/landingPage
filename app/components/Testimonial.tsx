@@ -29,7 +29,7 @@ const Testimonial = async () => {
                     {testimonials.map((testimonial : Testimonial) => (
                       <div key={testimonial.title}>
                           <div className='md:mb-3  font-bold flex text-sm md:text-xl  clash-display-regular'>{testimonial.title}</div>
-                          <p className=' md:w-[80%] font-bold opacity-60 text-xs md:text-base clash-display-regular'>{testimonial.description}</p>
+                          <p className=' md:w-[80%] font-bold opacity-60 md:text-[15px] text-[10px] lg:text-[20px] clash-display-regular'>{testimonial.description}</p>
                           <div className='mt-5'><Image src={"/people.png "} alt='logo' width={130} height={100}/></div>
                           <div className=' mt-5 font-bold flex text-xs md:text-md whitespace-nowrap clash-display-regular'>{testimonial.name}</div>
                       </div>

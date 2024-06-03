@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="h-full w-full ">
         <Navbar/>
-        <section className='h-auto w-full  right-0 left-0 '>
+        <section className='h-auto w-full  right-0 left-0 min-w-[370px]'>
             <HeroSection/>
             <FeaturesSection/>
             <AdvantagesSection/>
